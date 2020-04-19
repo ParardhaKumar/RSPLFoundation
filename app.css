@@ -1,9 +1,9 @@
-body{
-  background: #e2e2e2;
+html {
+  scroll-behavior: smooth;
 }
 
-hr{
-  color: white;
+body{
+  background: #e2e2e2;
 }
 
 a.btn{
@@ -56,6 +56,13 @@ a.btn{
 .information{
   text-align: justify center;
   font-size: 2rem;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+
+.about{
+  font-size: 1.5rem;
   font-weight: 100;
   font-family: "Roboto", sans-serif;
   color: black;
