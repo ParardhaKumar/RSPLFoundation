@@ -1,0 +1,24 @@
+{
+  "name": "rspl-web",
+  "version": "1.0.0",
+  "description": "NGO Web-Page",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParardhaKumar/RSPLFoundation.git"
+  },
+  "author": "Parardha Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ParardhaKumar/RSPLFoundation/issues"
+  },
+  "homepage": "https://github.com/ParardhaKumar/RSPLFoundation#readme",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1"
+  }
+}
