@@ -8,6 +8,10 @@ app.get("/", function(req, res){
   res.render("index");
 })
 
+app.get("/donate", function(req, res){
+  res.render("donate")
+})
+
 app.get("*", function(req, res){
   res.render("404");
 })

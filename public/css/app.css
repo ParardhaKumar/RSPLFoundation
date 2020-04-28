@@ -6,6 +6,10 @@ body{
   background: #e2e2e2;
 }
 
+a{
+  color: tomato;
+}
+
 a.btn{
   text-align: center;
 }
@@ -27,7 +31,39 @@ a.btn{
   z-index: -1;
 }
 
-.hero .overlay{
+.hero .content{
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+.donate-hero{
+  min-height: 100vh;
+}
+
+.donation-box{
+  padding: 3rem;
+  background-color: #F2F2F2;
+}
+
+.donate-button{
+  display: block;
+  text-align: center;
+}
+
+.donate-hero .donate-background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:100%;
+  background-image: url("https://images.unsplash.com/photo-1557658909-8cd482ee024f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1653&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+}
+
+.donate-hero .overlay{
   position: absolute;
   top: 0;
   left: 0;
@@ -40,9 +76,22 @@ a.btn{
   z-index: 0;
 }
 
-.hero .content{
+.donate-hero .content{
   font-family: "Open Sans", sans-serif;
   color: white;
+}
+
+.hero .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.6;
+  z-index: 0;
 }
 
 .contact{
@@ -82,23 +131,55 @@ a.btn{
   color: black;
 }
 
+.social{
+  padding-right:3rem;
+}
+
+.footer-data{
+  color: #828282 !important;
+}
+
+.footer-data a{
+  color: #828282 !important;
+}
+
 #mainNav{
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   text-transform: uppercase;
   z-index: 5;
-}
-
-#mainNav .nav-link{
   color: white;
 }
 
-#mainNav .nav-link:hover{
+#mainNav a{
+  color: white;
+}
+
+#mainNav .navbar-nav:hover{
   color: #EA1C2C;
   font-weight: 500;
 }
 
 .contact #phone{
     font-weight: 500;
+}
+
+#pan{
+  color: rgb(130, 130, 130);
+  padding: 3rem auto;
+}
+
+footer{
+  margin-top: 3rem;
+  color: #black;
+  background: linear-gradient(#E2E2E2, #ADA996);
+}
+
+footer a{
+
+}
+
+footer h6{
+  color: black;
 }
